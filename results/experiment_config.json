@@ -1,0 +1,51 @@
+{
+  "seed": 42,
+  "n_blocks": 40,
+  "split_fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "scaled_columns": [
+    "log_TcpRtt",
+    "log_SynAck",
+    "log_AckDat",
+    "log_SrcPkts",
+    "log_DstPkts",
+    "log_SrcBytes",
+    "log_DstBytes",
+    "log_SAppBytes",
+    "log_DAppBytes",
+    "log_Dur",
+    "log_Rate",
+    "log_SrcRate",
+    "log_DstRate"
+  ],
+  "n_flow_features": 35,
+  "split_counts": {
+    "5_train": {
+      "Botnet": 690,
+      "Normal": 2657
+    },
+    "5_val": {
+      "Botnet": 143,
+      "Normal": 973
+    },
+    "5_test": {
+      "Botnet": 68,
+      "Normal": 1049
+    },
+    "11_train": {
+      "Botnet": 4711,
+      "Normal": 1819
+    },
+    "11_val": {
+      "Botnet": 1759,
+      "Normal": 417
+    },
+    "11_test": {
+      "Botnet": 1694,
+      "Normal": 482
+    }
+  }
+}

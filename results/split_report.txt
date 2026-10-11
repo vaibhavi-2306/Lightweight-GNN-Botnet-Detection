@@ -1,0 +1,25 @@
+Flows: 237,083   Features per flow: 35
+Scenario 5: 40 blocks (26 contain botnet flows)
+Scenario 11: 40 blocks (36 contain botnet flows)
+
+Labeled flows per scenario / split / class:
+class           Botnet  Normal
+scenario split                
+5        train     690    2657
+         val       143     973
+         test       68    1049
+11       train    4711    1819
+         val      1759     417
+         test     1694     482
+
+Overall labeled flows per split:
+class  Botnet  Normal  total  botnet_%
+split                                 
+train    5401    4476   9877      54.7
+val      1902    1390   3292      57.8
+test     1762    1531   3293      53.5
+
+Check passed: every scenario/split contains both classes.
+Background flows (split = -1, not used in loss/metrics): 220,621
+
+Scaled 13 log_ columns using 9,877 training flows only.

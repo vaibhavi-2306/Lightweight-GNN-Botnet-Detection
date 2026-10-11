@@ -1,0 +1,39 @@
+Flows loaded: 237,083
+
+============================================================
+GRAPH SUMMARY
+============================================================
+Scenario 5: 41,658 nodes, 129,832 flows
+Scenario 11: 41,931 nodes, 107,251 flows
+Total nodes                    : 83,589
+Total flows (directed edges)   : 237,083
+Unique directed IP pairs       : 93,434
+Message-passing edges (2-way)  : 180,920
+Average degree (msg-passing)   : 2.16
+Density                        : 2.59e-05
+
+Connected components           : 147
+Largest component              : 41,637 nodes (49.8% of all nodes)
+Isolated nodes (no neighbours) : 2
+
+------------------------------------------------------------
+Infected hosts (sources of Botnet-labelled flows) - degree check
+------------------------------------------------------------
+scenario  5 | 147.32.84.165    | flows sent    901 | distinct peers   183 | sends more flows than 99.97% of hosts in its scenario
+scenario 11 | 147.32.84.165    | flows sent  4,151 | distinct peers     5 | sends more flows than 99.99% of hosts in its scenario
+scenario 11 | 147.32.84.191    | flows sent  4,006 | distinct peers     5 | sends more flows than 99.99% of hosts in its scenario
+scenario 11 | 147.32.84.192    | flows sent      7 | distinct peers     4 | sends more flows than 99.25% of hosts in its scenario
+
+Node feature summary (before standardising):
+       out_flows  in_flows  out_peers  in_peers
+count   83589.00  83589.00   83589.00  83589.00
+mean        2.84      2.84       1.12      1.12
+std       136.51    249.51      42.76    110.96
+min         0.00      0.00       0.00      0.00
+25%         0.00      0.00       0.00      0.00
+50%         1.00      0.00       1.00      0.00
+75%         1.00      1.00       1.00      1.00
+max     22015.01  53746.00    9085.00  25143.00
+
+Saved: data\processed\graph_structure.pt  (8.7 MB)
+Saved: data\processed\nodes.parquet

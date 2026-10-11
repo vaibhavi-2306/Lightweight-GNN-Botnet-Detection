@@ -1,0 +1,22 @@
+{
+  "5": {
+    "file": "scenario_05.binetflow",
+    "rows": 129832,
+    "columns": 33,
+    "classes": {
+      "Background": 124252,
+      "Normal": 4679,
+      "Botnet": 901
+    }
+  },
+  "11": {
+    "file": "scenario_11.binetflow",
+    "rows": 107251,
+    "columns": 33,
+    "classes": {
+      "Background": 96369,
+      "Botnet": 8164,
+      "Normal": 2718
+    }
+  }
+}

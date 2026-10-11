@@ -1,0 +1,10 @@
+model,scope,n_flows,accuracy,precision,recall,f1,roc_auc,tn,fp,fn,tp
+LR_flow_features_only,overall,3293,0.9875,0.9864,0.9904,0.9884,0.9988,1507,24,17,1745
+LR_flow_features_only,scenario_5,1117,0.9633,0.68,0.75,0.7133,0.9615,1025,24,17,51
+LR_flow_features_only,scenario_11,2176,1.0,1.0,1.0,1.0,1.0,482,0,0,1694
+LR_node_features_only,overall,3293,0.9988,0.9977,1.0,0.9989,0.9974,1527,4,0,1762
+LR_node_features_only,scenario_5,1117,0.9964,0.9444,1.0,0.9714,0.9962,1045,4,0,68
+LR_node_features_only,scenario_11,2176,1.0,1.0,1.0,1.0,1.0,482,0,0,1694
+LR_flow_plus_node,overall,3293,0.9988,0.9977,1.0,0.9989,0.9974,1527,4,0,1762
+LR_flow_plus_node,scenario_5,1117,0.9964,0.9444,1.0,0.9714,0.9962,1045,4,0,68
+LR_flow_plus_node,scenario_11,2176,1.0,1.0,1.0,1.0,1.0,482,0,0,1694

@@ -1,0 +1,4 @@
+model,seed,scope,n_flows,accuracy,precision,recall,f1,roc_auc,tn,fp,fn,tp,params,train_time_s,epochs_run,best_epoch,time_per_epoch_s,inference_ms,peak_mem_mb,model_size_kb
+lightweight,43,overall,3293,0.9985,0.9977,0.9994,0.9986,0.9999,1527,4,1,1761,1185,28.05,103,83,0.2723,20.8,541.0,4.63
+lightweight,43,scenario_5,1117,0.9955,0.9437,0.9853,0.964,0.998,1045,4,1,67,1185,28.05,103,83,0.2723,20.8,541.0,4.63
+lightweight,43,scenario_11,2176,1.0,1.0,1.0,1.0,1.0,482,0,0,1694,1185,28.05,103,83,0.2723,20.8,541.0,4.63
